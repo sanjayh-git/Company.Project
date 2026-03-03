@@ -53,6 +53,7 @@
             builder.UseSerilog();
         }
 
+
         public static void UseGlobalExceptionHandler(this WebApplication app)
         {
             app.UseExceptionHandler(options =>
