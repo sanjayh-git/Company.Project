@@ -1,0 +1,103 @@
+########################
+# OS / General Junk
+########################
+.DS_Store
+Thumbs.db
+
+########################
+# Build & Runtime Output
+########################
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+artifacts/
+TestResults/
+*.Cache
+*.VisualState.xml
+*.pidb
+*.svclog
+*.tlog
+
+########################
+# User-specific Files
+########################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+########################
+# Visual Studio
+########################
+.vs/
+
+# Local history / backup
+*_i.c
+*_p.c
+*_h.h
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
+########################
+# Rider / JetBrains
+########################
+.idea/
+*.sln.iml
+
+########################
+# NuGet
+########################
+*.nupkg
+*.snupkg
+# If you're not committing packages, ignore the folder:
+packages/
+.nuget/packages/
+project.lock.json
+nuget.lock.json
+
+########################
+# Logs & Temp
+########################
+logs/
+*.log
+*.tmp
+*.temp
+~$*
+
+########################
+# Resharper / dotCover
+########################
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.dotCover
+
+########################
+# Publish / deployment
+########################
+**/Properties/ServiceDependencies/*/profiles/*.json
+# Uncomment if you don't want to commit local launch profiles
+# **/Properties/launchSettings.json
+
+# Web publish output (if you publish to a folder inside the repo)
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+########################
+# VS Code
+########################
+.vscode/
+
+########################
+# Others
+########################
+*.psess
+*.vsp
+*.vspx

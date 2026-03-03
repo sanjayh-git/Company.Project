@@ -1,0 +1,31 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #0077cc;
+}
+
+main {
+  margin-top: 1rem;
+}

@@ -1,0 +1,17 @@
+<div class="card">
+  <h2>Upload Meter Readings CSV</h2>
+
+  <div class="form-row">
+    <input type="file" (change)="onFileChange($event)" accept=".csv" />
+    <button (click)="onUpload()" [disabled]="uploading || !selectedFile">
+      {{ uploading ? 'Uploading...' : 'Upload' }}
+    </button>
+  </div>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div *ngIf="result" class="result">
+    <p><strong>Success:</strong> {{ result.successCount }}</p>
+    <p><strong>Failed:</strong> {{ result.failureCount }}</p>
+  </div>
+</div>

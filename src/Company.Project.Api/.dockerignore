@@ -1,0 +1,30 @@
+# Build output
+**/bin/
+**/obj/
+
+# VS / Rider / IDE stuff
+.vs/
+.idea/
+.vscode/
+
+# User-specific / OS junk
+*.user
+*.suo
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker files themselves (don’t need to be in context)
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Logs / temp
+**/*.log
+logs/
+tmp/

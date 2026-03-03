@@ -1,0 +1,14 @@
+<div class="container">
+  <header>
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="/accounts" routerLinkActive="active">Accounts</a>
+      <a routerLink="/meter-readings" routerLinkActive="active">Meter Readings</a>
+      <a routerLink="/upload" routerLinkActive="active">Upload CSV</a>
+    </nav>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>

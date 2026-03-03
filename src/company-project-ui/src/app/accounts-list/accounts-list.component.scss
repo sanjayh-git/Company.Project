@@ -1,0 +1,22 @@
+.card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.error {
+  color: #b00020;
+}
